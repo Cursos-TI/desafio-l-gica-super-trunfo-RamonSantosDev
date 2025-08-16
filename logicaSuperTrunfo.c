@@ -36,7 +36,6 @@ int main() {
     fgets(cidade, sizeof(cidade), stdin);
     cidade[strcspn(cidade, "\n")] = '\0';
 
- 
     printf("Digite o numero de habitantes ");
     scanf("%lu", &populacao);
 
@@ -61,9 +60,8 @@ int main() {
     while ((c = getchar()) != '\n' && c != EOF) { }
 
     printf("Digite o nome da Cidade: ");
-    fgets(cidade2, sizeof(cidade2), stdin);
+    fgets(cidade2, sizeof(cidade2), stdin); 
     cidade2[strcspn(cidade2, "\n")] = '\0';
-
 
     printf("Digite o numero de habitantes: ");
     scanf("%lu", &populacao2);
