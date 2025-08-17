@@ -42,7 +42,7 @@ int main() {
     printf("Digite a Area da cidade em km²: ");
     scanf("%f", &area);
 
-    printf("Digite o PIB (Produto interno Bruto) da cidade: ");
+    printf("Digite o PIB (Bilhões): ");
     scanf("%f", &PIB);
 
     printf("Digite a quantidade de Pontos turisticos: ");
@@ -69,7 +69,7 @@ int main() {
     printf("Digite a Área da cidade em km²: ");
     scanf("%f", &area2);
 
-    printf("Digite o PIB (Produto interno Bruto) da cidade: ");
+    printf("Digite o PIB (Bilhões): ");
     scanf("%f", &PIB2);
 
     printf("Digite a quantidade de Pontos turisticos: ");
@@ -144,8 +144,8 @@ int main() {
         case 4:
         printf("%s x %s\n", cidade, cidade2);
         printf("Atributo usado: Pontos Turisticos\n");
-        printf("Carta 1: %.2f\n", pontosT);
-        printf("Carta 2: %.2f\n", pontosT2);
+        printf("Carta 1: %d\n", pontosT);
+        printf("Carta 2: %d\n", pontosT2);
 
         if (pontosT > pontosT2){
            printf("Carta 1 Venceu!\n");
